@@ -1,11 +1,26 @@
 header {
  background-color: #00cdcd;
- padding: 20px;
+ padding: 40px;
+ margin: -10px -8px 0 -8px;
 }
 
 nav {
+  font-family: 'Lato', sans-serif;
   width:1024px;
   margin: 0 auto;
+  float: right;
+  font-size: 1.1em;
+}
+
+nav .nav-1 {
+  margin-right: 10px;
+  padding: 2px;
+  border: 2px solid #fff;
+}
+
+nav .nav-2 {
+  padding: 2px;
+  border: 2px solid #fff;
 }
 
 nav a {
@@ -18,4 +33,25 @@ h1 {
   font-size: 4em;
   font-weight: bold;
   text-align: center;
+  margin-top:  10px;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top:  10px;
+}
+
+h4 {
+  font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top:  10px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
 }
