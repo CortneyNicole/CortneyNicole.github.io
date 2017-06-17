@@ -1,3 +1,4 @@
+/*header styling*/
 header {
  background-color: #00cdcd;
  padding: 40px;
@@ -5,20 +6,42 @@ header {
 }
 
 nav {
-  font-family: 'Lato', sans-serif;
   width:1024px;
   margin: 0 auto;
-  float: right;
-  font-size: 1.1em;
+}
+.logo {
+  float: left;
+  padding-bottom: 4px;
+  margin-top: -75px;
+  height: 40px;
 }
 
-nav .nav-1 {
+.logo p{
+  font-size: 3em;
+  color: #fff;
+  font-family:'Dancing Script', cursive;
+}
+
+.nav-link{
+  font-family: 'Lato', sans-serif;
+  text-align: right;
+  font-size: 1.1em;
+  float: right;
+}
+
+.nav-link a {
+  padding: 2px;
+  border: 2px solid #fff;
+  margin-right:10px;
+}
+
+nav .nav-link .nav-1 {
   margin-right: 10px;
   padding: 2px;
   border: 2px solid #fff;
 }
 
-nav .nav-2 {
+nav .nav-link .nav-2 {
   padding: 2px;
   border: 2px solid #fff;
 }
@@ -28,6 +51,7 @@ nav a {
   text-decoration: none;
 }
 
+/*body styling*/
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 4em;
@@ -46,12 +70,56 @@ h2 {
 
 h4 {
   font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   margin-top:  10px;
 }
 
-p{
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top:  10px;
+}
+
+p {
   font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+}
+
+/*List styling*/
+.info {
+  font-family: 'Lato', sans-serif;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.info ul {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+
+/*Table styling*/
+#table {
+  font-family: 'Lato', sans-serif;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+/*Form styling*/
+form {
+  font-family: 'Lato', sans-serif;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-bottom: 2%;
+}
+
+form #form-button {
+  font-family: 'Lato', sans-serif;
+  background-color: #00cdcd;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 1em;
 }
