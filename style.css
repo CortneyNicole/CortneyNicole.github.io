@@ -125,6 +125,13 @@ p {
   float: left;
   padding-bottom: 10px;
 }
+#proposal img{
+  width:500px;
+  }
+
+  #lanterns img{
+  width:500px;
+  }
 
 #laterns {
   float:right;
@@ -182,4 +189,60 @@ form #form-button {
 /*thank you page*/
 #thankyou {
   text-align: center;
+}
+
+/*media queries*/
+@media only screen and (max-width: 1100px){
+  nav {
+    width: 800px;
+  }
+  .logo {
+    width: 50%;
+    font-size: .7em;
+    padding-top:20px;
+  }
+  .nav-link {
+    dispay:block;
+    float:right;
+  }
+
+  #body-div {
+    width:80%;
+  }
+  #proposal {
+    width:100%;
+    float:none;
+  }
+
+  #proposal img {
+    display: block;
+    margin: auto;
+  }
+  #lanterns {
+    width:100%;
+    float:none;
+  }
+
+  #lanterns img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 830px){
+  header {
+    height: 35px;
+  }
+  nav {
+    width: 375px;
+  }
+  .logo {
+
+    width:100%;
+  }
+  .nav-link{
+    padding-top:35px;
+    text-align: center;
+    width:100%;
+  }
 }
