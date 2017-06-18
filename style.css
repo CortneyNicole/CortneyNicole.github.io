@@ -42,10 +42,6 @@ nav a {
   text-decoration: none;
 }
 
-nav a:visited {
-  color: rgb(162, 28, 255);
-}
-
 /*Hero image*/
 .hero {
   margin-top: -40px;
@@ -115,7 +111,7 @@ p {
   text-decoration: none;
 }
 
-.site-links:visited {
+.site-links a:visited {
   color: rgb(162, 28, 255);
 }
 
