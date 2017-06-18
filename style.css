@@ -111,7 +111,7 @@ p {
   text-decoration: none;
 }
 
-.site-links a:visited {
+.site-links:visited {
   color: rgb(162, 28, 255);
 }
 
