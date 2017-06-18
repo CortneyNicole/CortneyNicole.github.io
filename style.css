@@ -1,7 +1,8 @@
 /*header styling*/
 header {
  background-color: #00cdcd;
- padding: 40px;
+ padding-top: 40px;
+ height: 50px;
  margin: -10px -8px 0 -8px;
 }
 
@@ -125,6 +126,13 @@ p {
   float: left;
   padding-bottom: 10px;
 }
+#proposal img{
+  width:500px;
+  }
+
+  #lanterns img{
+  width:500px;
+  }
 
 #laterns {
   float:right;
@@ -138,11 +146,19 @@ p {
   padding-bottom: 10px;
 }
 
+ .eyesforyou img {
+  width:500px;
+  }
+
 .kiss {
   width: 48%;
   float:right;
   padding-bottom: 10px;
 }
+
+ .kiss img{
+  width:500px;
+  }
 
 /*List styling*/
 .info {
@@ -171,6 +187,11 @@ form {
   margin-bottom: 2%;
 }
 
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 form #form-button {
   font-family: 'Lato', sans-serif;
   background-color: rgb(209, 152, 255);
@@ -183,3 +204,193 @@ form #form-button {
 #thankyou {
   text-align: center;
 }
+
+/*media queries*/
+
+@media only screen and (max-width: 375px) {
+    #proposal {
+      width:375px;
+      float:none;
+    }
+
+    #proposal img {
+      display: block;
+      margin: auto;
+    }
+    #lanterns {
+      width:375px;
+      float:none;
+    }
+
+    #lanterns img {
+      display: block;
+      margin: auto;
+    }
+
+    .eyesforyou {
+      width:375px;
+      float:none;
+    }
+
+    .eyesforyou img {
+      display: block;
+      margin: auto;
+    }
+
+    .kiss {
+      width:375px;
+      float:none;
+    }
+
+    .kiss img {
+      display: block;
+      margin: auto;
+    }
+}
+@media only screen and (max-width: 1100px){
+  nav {
+    width: 800px;
+  }
+  .logo {
+    width: 50%;
+    font-size: .7em;
+    padding-top:20px;
+  }
+  .nav-link {
+    dispay:block;
+    float:right;
+  }
+
+  .hero {
+    background-image: url("images/cropped-engagement-1100.png");
+    background-repeat: no-repeat;
+     background-position: center;
+  }
+
+  .hero p {
+      color: #fff;
+  }
+
+  #body-div {
+    width:80%;
+  }
+  #proposal {
+    width:100%;
+    float:none;
+  }
+
+  #proposal img {
+    display: block;
+    margin: auto;
+  }
+  #lanterns {
+    width:100%;
+    float:none;
+  }
+
+  #lanterns img {
+    display: block;
+    margin: auto;
+  }
+
+  .eyesforyou {
+    width:100%;
+    float:none;
+  }
+
+  .eyesforyou img {
+    display: block;
+    margin: auto;
+  }
+
+  .kiss {
+    width:100%;
+    float:none;
+  }
+
+  .kiss img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 830px){
+  nav {
+    width: 100%;
+  }
+  /*.logo {
+    width: 50%;
+    font-size: .7em;
+    padding-top:20px;
+  }
+  */
+  .nav-link {
+    display:block;
+    float:right;
+  }
+
+  #body-div {
+    width:90%;
+  }
+  header {
+    height: 75px;
+  }
+  /*nav {
+    width: 350px;
+  }*/
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link{
+    padding-top:35px;
+    text-align: center;
+    width:100%;
+  }
+
+  .info {
+    margin: auto;
+    text-align: center;
+  }
+
+   #proposal {
+      float:none;
+    }
+
+    #proposal img {
+      display: block;
+      margin: auto;
+      width:350px;
+    }
+    #lanterns {
+      float:none;
+    }
+
+    #lanterns img {
+      display: block;
+      margin: auto;
+      width:350px;
+    }
+
+    .eyesforyou {
+      float:none;
+    }
+
+    .eyesforyou img {
+      display: block;
+      margin: auto;
+      width:350px;
+    }
+
+    .kiss {
+      float:none;
+    }
+
+    .kiss img {
+      display: block;
+      margin: auto;
+      width:350px;
+    }
+}
+
