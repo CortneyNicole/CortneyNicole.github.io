@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +22,7 @@
 <meta name="theme-color" content="#ffffff">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>The Blank Page</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
     <div class="logo">
       <p><a href="index.html">Cortney and Rachel's Wedding</a></p>
     </div>
-    <div class="nav-link">
+    <div class="nav-link hover">
       <a href="index.html" class="hover">About Us</a>
       <a href="the_day.html" class="hover">The Best Day Ever</a>
     </div>
@@ -59,5 +60,15 @@
             <p><a href="https://www.theknot.com/" class="site-links">The knot's </a>website is decent overall, as its load times are relatively quick. However, the site is not entirely responsive on all pages. While it looks fine on a phone, on desktop the screen does not resize well as the width of the browser decreases. Also, the page is very cluttered and can be a little overwhelming when you first look at it. </p>
         </div>
       </div>
+<script>
+$(document).ready(function(){
+    $("a.hover").mouseover(function(){
+        $("a.hover").css("background-color", "lavender");
+    });
+    $("a.hover").mouseout(function(){
+        $("a.hover").css("background-color", "transparent");
+    });
+});
+</script>
 </body>
 </html>
