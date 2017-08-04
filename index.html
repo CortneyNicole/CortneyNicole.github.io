@@ -33,7 +33,7 @@
     </div>
     <div class="nav-link hover">
       <a href="index.html" class="hover">About Us</a>
-      <a href="the_day.html" class="hover">The Best Day Ever</a>
+      <a href="the_day.html" class="hover1">The Best Day Ever</a>
     </div>
     </nav>
   </header>
@@ -67,6 +67,14 @@ $(document).ready(function(){
     });
     $("a.hover").mouseout(function(){
         $("a.hover").css("background-color", "transparent");
+    });
+});
+$(document).ready(function(){
+    $("a.hover1").mouseover(function(){
+        $("a.hover1").css("background-color", "lavender");
+    });
+    $("a.hover1").mouseout(function(){
+        $("a.hover1").css("background-color", "transparent");
     });
 });
 </script>

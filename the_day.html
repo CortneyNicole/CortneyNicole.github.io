@@ -20,7 +20,7 @@
 <meta name="theme-color" content="#ffffff">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>The Blank Day</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
     </div>
     <div class="nav-link">
       <a href="index.html" class="hover">About Us</a>
-      <a href="the_day.html" class="hover">The Best Day Ever</a>
+      <a href="the_day.html" class="hover1">The Best Day Ever</a>
     </div>
     </nav>
   </header>
@@ -112,5 +112,23 @@
   </div>
  </div>
 </div>
+<script>
+$(document).ready(function(){
+    $("a.hover").mouseover(function(){
+        $("a.hover").css("background-color", "lavender");
+    });
+    $("a.hover").mouseout(function(){
+        $("a.hover").css("background-color", "transparent");
+    });
+});
+$(document).ready(function(){
+    $("a.hover1").mouseover(function(){
+        $("a.hover1").css("background-color", "lavender");
+    });
+    $("a.hover1").mouseout(function(){
+        $("a.hover1").css("background-color", "transparent");
+    });
+});
+</script>
 </body>
 </html>
